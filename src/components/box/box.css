@@ -1,0 +1,37 @@
+.main {
+    position: relative;
+}
+.mainBox {
+    position: absolute;
+    border: 10px solid blue;
+    /* z-index: 9; */
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    margin: 20px;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+.myBox {
+    position: relative;
+    width: 10px;
+    height: 10px;
+    padding: 2px;
+    margin: 2px;
+    cursor: pointer;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    /* z-index: 10; */
+}
+.arena {
+    border: 5px solid chartreuse;
+    width: 485px;
+    height: 285px;
+    position: absolute;
+    top: 45px;
+    left: 15px;
+}
